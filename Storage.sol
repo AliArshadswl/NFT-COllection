@@ -9,13 +9,7 @@ contract Storage {
 
     uint256 number;
 
-    /**
-     * @dev Store value in variable
-     * @param num value to store
-     */
-    function store(uint256 num) public {
-        number = num;
-    }
+   
 
     /**
      * @dev Return value 
