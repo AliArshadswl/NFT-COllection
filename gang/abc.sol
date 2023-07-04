@@ -10,8 +10,8 @@ contract NFT is ERC721, Ownable {
 
     uint private constant DEFAULT_MAX_TOKENS = 10000;
     uint private constant DEFAULT_TOKENS_RESERVED = 100;
-    uint private constant DEFAULT_PRICE = 0.01 ether;
-    uint256 private constant DEFAULT_MAX_MINT_PER_TX = 10;
+    uint private constant DEFAULT_PRICE = 0.001 ether;
+    uint256 private constant DEFAULT_MAX_MINT_PER_TX = 5;
 
     uint public MAX_TOKENS;
     uint private TOKENS_RESERVED;
